@@ -2,34 +2,34 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Open Source ](https://img.shields.io/badge/Open%%20Source-%%E2%%9D%%A4-red.svg)](https://github.com)
+[![Open Source ❤️](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://github.com)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com)
 
-> **Made with  Open Source** - A fully automated content pipeline that generates viral YouTube Shorts from interesting facts. This "set-it-and-forget-it" system handles everything from content sourcing to final video upload—completely free of cost!
+> **Made with ❤️ Open Source** - A fully automated content pipeline that generates viral YouTube Shorts from interesting facts. This "set-it-and-forget-it" system handles everything from content sourcing to final video upload—completely free of cost!
 
-##  Features
+## 🌟 Features
 
-- ** Fully Automated**: No manual intervention required
-- ** 100%% Free**: Uses only free-tier APIs and open-source tools
-- ** High Quality**: Professional voiceovers and dynamic subtitles
-- ** Algorithm-Optimized**: AI-generated titles, descriptions, and hashtags
-- ** Continuous Production**: Generate videos on schedule or on-demand
-- ** Smart Asset Management**: Automatic video and music selection
+- **🤖 Fully Automated**: No manual intervention required
+- **💰 100% Free**: Uses only free-tier APIs and open-source tools
+- **📹 High Quality**: Professional voiceovers and dynamic subtitles
+- **🎯 Algorithm-Optimized**: AI-generated titles, descriptions, and hashtags
+- **🔄 Continuous Production**: Generate videos on schedule or on-demand
+- **📊 Smart Asset Management**: Automatic video and music selection
 
-##  What It Does
+## 🎥 What It Does
 
 Automatically generates complete YouTube Shorts with:
 
--  AI-powered engaging scripts
--  Professional text-to-speech narration
--  Dynamic word-by-word captions perfectly synced
--  Relevant HD background videos
--  Optional background music
--  Auto-upload to YouTube with optimized metadata
+- 🤖 AI-powered engaging scripts
+- 🎙️ Professional text-to-speech narration
+- 🎨 Dynamic word-by-word captions perfectly synced
+- 🎬 Relevant HD background videos
+- 🎵 Optional background music
+- 📤 Auto-upload to YouTube with optimized metadata
 
 **One command. Complete video. Zero manual work.**
 
-##  Technology Stack
+## 🛠️ Technology Stack
 
 ### Core Technologies
 
@@ -46,7 +46,7 @@ Automatically generates complete YouTube Shorts with:
 - **Pixabay**: Alternative stock videos (5K/day)
 - **YouTube Data API v3**: Automated video uploads
 
-##  Prerequisites
+## 📋 Prerequisites
 
 1. **Python 3.9 or higher**
 2. **FFmpeg** installed and in PATH
@@ -57,7 +57,7 @@ Automatically generates complete YouTube Shorts with:
    - Pixabay account (optional)
    - Google Cloud Console (YouTube API)
 
-##  Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone the Repository
 
@@ -119,9 +119,9 @@ cd src
 python -m viral_shorts.main
 ```
 
-Your video will be in `src/output/[timestamp]/[timestamp].mp4` 
+Your video will be in `src/output/[timestamp]/[timestamp].mp4` 🎉
 
-##  Usage
+## 💻 Usage
 
 ### Generate a Single Video
 
@@ -152,7 +152,7 @@ for i in range(5):
         print(f"Success! Video: {video_info['title']}")
 ```
 
-##  Project Structure
+## 📁 Project Structure
 
 ```
 quantumFacts/
@@ -174,7 +174,7 @@ quantumFacts/
  README.md                   # This file
 ```
 
-##  Video Generation Pipeline
+## 🎥 Video Generation Pipeline
 
 1. **Fetch Fact**: Get random interesting fact from API-Ninjas
 2. **Generate Script**: Use AI to create engaging script
@@ -184,7 +184,7 @@ quantumFacts/
 6. **Add Subtitles**: Create word-by-word animated captions
 7. **Upload**: Optionally publish to YouTube with metadata
 
-##  Configuration
+## ⚙️ Configuration
 
 Edit `.env` file to customize:
 
@@ -205,7 +205,7 @@ YOUTUBE_PRIVACY_STATUS=public
 AUTO_PUBLISH=false
 ```
 
-##  Customization
+## 🎨 Customization
 
 ### Change Voice
 
@@ -231,7 +231,7 @@ SUBTITLE_POSITION = 2           # Bottom-center
 SUBTITLE_MARGIN_V = 150
 ```
 
-##  Testing
+## 🧪 Testing
 
 ```bash
 # Install test dependencies
@@ -244,7 +244,7 @@ pytest tests/
 pytest --cov=viral_shorts tests/
 ```
 
-##  Troubleshooting
+## 🔧 Troubleshooting
 
 ### Common Issues
 
@@ -274,7 +274,7 @@ pytest --cov=viral_shorts tests/
 LOG_LEVEL=DEBUG
 ```
 
-##  Contributing
+## 🤝 Contributing
 
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -284,11 +284,11 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 4. Push to the branch
 5. Open a Pull Request
 
-##  License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-##  Acknowledgments
+## 🙏 Acknowledgments
 
 - [API-Ninjas](https://api-ninjas.com/) - Facts API
 - [OpenRouter](https://openrouter.ai/) - AI model access
@@ -298,7 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [FFmpeg](https://ffmpeg.org/) - Video processing
 - [pysubs2](https://github.com/tkarabela/pysubs2) - Subtitle generation
 
-##  Disclaimer
+## ⚠️ Disclaimer
 
 - Ensure you comply with YouTube's Terms of Service
 - Verify content rights and licensing
@@ -306,7 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This tool is for educational purposes
 - Always review generated content before publishing
 
-##  Roadmap
+## 🗺️ Roadmap
 
 - [ ] Web dashboard for monitoring
 - [ ] Multiple voice options
@@ -320,10 +320,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with  Open Source**
+**Made with ❤️ Open Source**
 
 *Built for creators, by creators. Free forever.*
 
-[ Star this repo](https://github.com/harshareddy-bathala/quantumFacts) | [ Report Bug](https://github.com/harshareddy-bathala/quantumFacts/issues) | [ Request Feature](https://github.com/harshareddy-bathala/quantumFacts/issues)
+[⭐ Star this repo](https://github.com/harshareddy-bathala/quantumFacts) | [🐛 Report Bug](https://github.com/harshareddy-bathala/quantumFacts/issues) | [💡 Request Feature](https://github.com/harshareddy-bathala/quantumFacts/issues)
 
 </div>

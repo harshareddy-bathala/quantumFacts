@@ -1,390 +1,777 @@
-# QuantumFacts - Automated YouTube Shorts Generator 🎬# 🎬 Automated Viral YouTube Shorts Generator
+# QuantumFacts - Automated YouTube Shorts Generator 🎬# QuantumFacts - Automated YouTube Shorts Generator 🎬# 🎬 Automated Viral YouTube Shorts Generator
 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+
+[![Open Source ❤️](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://github.com)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com)
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+> **Made with ❤️ Open Source** - A fully automated content pipeline that generates viral YouTube Shorts from interesting facts. This "set-it-and-forget-it" system handles everything from content sourcing to final video upload—completely free of cost!
+
 [![Open Source ❤️](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://github.com)![Status](https://img.shields.io/badge/status-active-success.svg)
 
-
-
-> **Made with ❤️ Open Source** - An intelligent, fully-automated system that generates engaging YouTube Shorts about interesting facts.A fully automated content pipeline that generates viral YouTube Shorts from interesting facts. This "set-it-and-forget-it" system handles everything from content sourcing to final video upload—completely free of cost!
-
-
-
-## ✨ What It Does## 🌟 Features
+## 🌟 Features
 
 
 
-Automatically generates complete YouTube Shorts with:- **🤖 Fully Automated**: No manual intervention required
+- **🤖 Fully Automated**: No manual intervention required
 
-- 🤖 AI-powered engaging scripts- **💰 100% Free**: Uses only free-tier APIs and open-source tools
+- **💰 100% Free**: Uses only free-tier APIs and open-source tools> **Made with ❤️ Open Source** - An intelligent, fully-automated system that generates engaging YouTube Shorts about interesting facts.A fully automated content pipeline that generates viral YouTube Shorts from interesting facts. This "set-it-and-forget-it" system handles everything from content sourcing to final video upload—completely free of cost!
 
-- 🎙️ Professional text-to-speech narration  - **📹 High Quality**: Professional voiceovers and dynamic subtitles
+- **📹 High Quality**: Professional voiceovers and dynamic subtitles
 
-- 🎨 Dynamic word-by-word captions- **🎯 Algorithm-Optimized**: AI-generated titles, descriptions, and hashtags
+- **🎯 Algorithm-Optimized**: AI-generated titles, descriptions, and hashtags
+
+- **🔄 Continuous Production**: Generate videos on schedule or on-demand
+
+- **📊 Smart Asset Management**: Automatic video and music selection## ✨ What It Does## 🌟 Features
+
+
+
+## 🎥 What It Does
+
+
+
+Automatically generates complete YouTube Shorts with:Automatically generates complete YouTube Shorts with:- **🤖 Fully Automated**: No manual intervention required
+
+
+
+- 🤖 AI-powered engaging scripts- 🤖 AI-powered engaging scripts- **💰 100% Free**: Uses only free-tier APIs and open-source tools
+
+- 🎙️ Professional text-to-speech narration
+
+- 🎨 Dynamic word-by-word captions perfectly synced- 🎙️ Professional text-to-speech narration  - **📹 High Quality**: Professional voiceovers and dynamic subtitles
+
+- 🎬 Relevant HD background videos
+
+- 🎵 Optional background music- 🎨 Dynamic word-by-word captions- **🎯 Algorithm-Optimized**: AI-generated titles, descriptions, and hashtags
+
+- 📤 Auto-upload to YouTube with optimized metadata
 
 - 🎬 Relevant background videos- **🔄 Continuous Production**: Generate videos on schedule or on-demand
 
+**One command. Complete video. Zero manual work.**
+
 - 📤 Optional auto-upload to YouTube- **📊 Smart Asset Management**: Automatic video and music selection
 
+## 🛠️ Technology Stack
 
+
+
+### Core Technologies
 
 **One command. Complete video. Zero manual work.**## 🛠️ Technology Stack
 
-
-
-## 🎥 Features### Core Technologies
-
 - **Python 3.9+**: Main orchestration language
 
-- **AI Script Generation**: Uses OpenRouter API (free) with Mistral-7B for natural, engaging narration- **FFmpeg**: Video processing and assembly
+- **FFmpeg**: Video processing and assembly
 
-- **Professional Narration**: Microsoft Edge TTS with energetic, high-quality voices- **Google Colab**: Free GPU for TTS generation
+- **Microsoft Edge TTS**: High-quality text-to-speech with natural voices
 
-- **Animated Captions**: Word-by-word subtitles perfectly synced with audio
-
-- **Smart Video Selection**: Automatically finds and downloads relevant HD videos from Pexels/Pixabay### APIs & Services (All Free Tier)
-
-- **YouTube Ready**: Portrait format (1080x1920), optimized for Shorts algorithm- **API-Ninjas**: Random interesting facts
-
-- **Background Music**: Optional music mixing support- **OpenRouter**: Free LLM access (Meta Llama)
-
-- **Auto Upload**: YouTube API integration for hands-free publishing- **Kyutai TTS**: High-quality text-to-speech
-
-- **Retry Logic**: Robust error handling and automatic retries- **Pexels & Pixabay**: Royalty-free stock videos
-
-- **YouTube Data API v3**: Automated video uploads
-
-## 🚀 Quick Start- **YouTube Audio Library**: Copyright-safe music
+- **pysubs2**: Advanced subtitle generation## 🎥 Features### Core Technologies
 
 
 
-### Prerequisites## 📋 Prerequisites
+### APIs & Services (All Free Tier)- **Python 3.9+**: Main orchestration language
 
 
 
-- Python 3.8+1. **Python 3.9 or higher**
+- **API-Ninjas**: Random interesting facts (50K requests/month)- **AI Script Generation**: Uses OpenRouter API (free) with Mistral-7B for natural, engaging narration- **FFmpeg**: Video processing and assembly
 
-- FFmpeg2. **FFmpeg** installed and in PATH
+- **OpenRouter**: Free LLM access with Mistral-7B
 
-- API keys (all have free tiers)3. **API Keys** (all free):
+- **Pexels**: Royalty-free stock videos (200/hour)- **Professional Narration**: Microsoft Edge TTS with energetic, high-quality voices- **Google Colab**: Free GPU for TTS generation
+
+- **Pixabay**: Alternative stock videos (5K/day)
+
+- **YouTube Data API v3**: Automated video uploads- **Animated Captions**: Word-by-word subtitles perfectly synced with audio
+
+
+
+## 📋 Prerequisites- **Smart Video Selection**: Automatically finds and downloads relevant HD videos from Pexels/Pixabay### APIs & Services (All Free Tier)
+
+
+
+1. **Python 3.9 or higher**- **YouTube Ready**: Portrait format (1080x1920), optimized for Shorts algorithm- **API-Ninjas**: Random interesting facts
+
+2. **FFmpeg** installed and in PATH
+
+3. **API Keys** (all free):- **Background Music**: Optional music mixing support- **OpenRouter**: Free LLM access (Meta Llama)
 
    - API-Ninjas account
 
-### Installation   - OpenRouter account
+   - OpenRouter account- **Auto Upload**: YouTube API integration for hands-free publishing- **Kyutai TTS**: High-quality text-to-speech
 
    - Pexels account
 
-```bash   - Pixabay account (optional)
+   - Pixabay account (optional)- **Retry Logic**: Robust error handling and automatic retries- **Pexels & Pixabay**: Royalty-free stock videos
 
-# 1. Clone repository   - Google Cloud Console (YouTube API)
+   - Google Cloud Console (YouTube API)
 
-git clone https://github.com/yourusername/QuantumFacts.git
+- **YouTube Data API v3**: Automated video uploads
 
-cd QuantumFacts## 🚀 Quick Start
+## 🚀 Quick Start
 
+## 🚀 Quick Start- **YouTube Audio Library**: Copyright-safe music
 
-
-# 2. Create virtual environment### 1. Clone the Repository
-
-python -m venv venv
-
-source venv/bin/activate  # On Windows: venv\Scripts\activate```bash
-
-git clone https://github.com/yourusername/viral-shorts-generator.git
-
-# 3. Install dependenciescd viral-shorts-generator
-
-pip install -r requirements.txt```
+### 1. Clone the Repository
 
 
-
-# 4. Set up environment### 2. Install Dependencies
-
-cp .env.example .env
-
-# Edit .env with your API keys (see setup guide below)```bash
-
-# Create virtual environment (recommended)
-
-# 5. Generate your first video!python -m venv venv
-
-cd src
-
-python -m viral_shorts.main# Activate virtual environment
-
-```# On Windows:
-
-venv\Scripts\activate
-
-Your video will be in `src/output/[timestamp]/[timestamp].mp4` 🎉# On Mac/Linux:
-
-source venv/bin/activate
-
-## 📋 Complete API Setup Guide
-
-# Install packages
-
-### 1️⃣ API-Ninjas (Facts API) - **FREE**pip install -r requirements.txt
-
-```
-
-Provides interesting random facts.
-
-### 3. Install FFmpeg
-
-1. Go to [api-ninjas.com](https://api-ninjas.com/)
-
-2. Click "Sign Up" (free account)**Windows:**
-
-3. Verify your email```bash
-
-4. Go to "My Account" → Copy your API key# Using Chocolatey
-
-5. Add to `.env`:choco install ffmpeg
-
-   ```
-
-   API_NINJAS_KEY=your-api-key-here# Or download from: https://ffmpeg.org/download.html
-
-   ``````
-
-
-
-**Free Tier**: 50,000 requests/month**Mac:**
 
 ```bash
 
----brew install ffmpeg
+git clone https://github.com/harshareddy-bathala/quantumFacts.git### Prerequisites## 📋 Prerequisites
+
+cd quantumFacts
 
 ```
 
-### 2️⃣ OpenRouter (AI Script Generation) - **FREE**
+
+
+### 2. Install Dependencies- Python 3.8+1. **Python 3.9 or higher**
+
+
+
+```bash- FFmpeg2. **FFmpeg** installed and in PATH
+
+# Create virtual environment (recommended)
+
+python -m venv venv- API keys (all have free tiers)3. **API Keys** (all free):
+
+
+
+# Activate virtual environment   - API-Ninjas account
+
+# On Windows:
+
+venv\Scripts\activate### Installation   - OpenRouter account
+
+# On Mac/Linux:
+
+source venv/bin/activate   - Pexels account
+
+
+
+# Install packages```bash   - Pixabay account (optional)
+
+pip install -r requirements.txt
+
+```# 1. Clone repository   - Google Cloud Console (YouTube API)
+
+
+
+### 3. Install FFmpeggit clone https://github.com/yourusername/QuantumFacts.git
+
+
+
+**Windows:**cd QuantumFacts## 🚀 Quick Start
+
+```bash
+
+# Using Chocolatey
+
+choco install ffmpeg
+
+# 2. Create virtual environment### 1. Clone the Repository
+
+# Or download from: https://ffmpeg.org/download.html
+
+```python -m venv venv
+
+
+
+**Mac:**source venv/bin/activate  # On Windows: venv\Scripts\activate```bash
+
+```bash
+
+brew install ffmpeggit clone https://github.com/yourusername/viral-shorts-generator.git
+
+```
+
+# 3. Install dependenciescd viral-shorts-generator
 
 **Linux:**
 
-Generates engaging scripts using AI models.```bash
+```bashpip install -r requirements.txt```
 
 sudo apt-get install ffmpeg
 
-1. Go to [openrouter.ai](https://openrouter.ai/)```
-
-2. Sign in with Google/GitHub
-
-3. Go to "Keys" → "Create Key"### 4. Set Up API Keys
-
-4. Copy the key (starts with `sk-or-v1-`)
-
-5. Add to `.env`:1. Copy the example environment file:
-
-   ```   ```bash
-
-   OPENROUTER_API_KEY=your-api-key-here   copy .env.example .env
-
-   ```   ```
+```
 
 
 
-**Free Tier**: Several free models available including Mistral-7B2. Get your API keys:
+### 4. Set Up API Keys# 4. Set up environment### 2. Install Dependencies
 
 
 
----   **API-Ninjas** (Facts):
+1. Copy the example environment file:cp .env.example .env
 
-   - Sign up at: https://api-ninjas.com/
+   ```bash
 
-### 3️⃣ Pexels (Video API) - **FREE**   - Get your API key from dashboard
+   copy .env.example .env# Edit .env with your API keys (see setup guide below)```bash
 
-   - Add to `.env`: `API_NINJAS_KEY=your_key_here`
+   ```
 
-High-quality stock video footage.
+# Create virtual environment (recommended)
 
-   **OpenRouter** (AI Scripts):
+2. Get your API keys:
 
-1. Go to [pexels.com/api](https://www.pexels.com/api/)   - Sign up at: https://openrouter.ai/
+# 5. Generate your first video!python -m venv venv
 
-2. Click "Get Started" → Sign up   - Get API key from dashboard
+   **API-Ninjas** (Facts):
 
-3. Go to "Your API Key" → Copy key   - Add to `.env`: `OPENROUTER_API_KEY=your_key_here`
+   - Sign up at: https://api-ninjas.com/cd src
 
-4. Add to `.env`:
+   - Get your API key from dashboard
 
-   ```   **Pexels** (Stock Videos):
+   - Add to `.env`: `API_NINJAS_KEY=your_key_here`python -m viral_shorts.main# Activate virtual environment
 
-   PEXELS_API_KEY=your-api-key-here   - Sign up at: https://www.pexels.com/api/
 
-   ```   - Get API key
 
-   - Add to `.env`: `PEXELS_API_KEY=your_key_here`
+   **OpenRouter** (AI Scripts):```# On Windows:
 
-**Free Tier**: 200 requests/hour
+   - Sign up at: https://openrouter.ai/
 
-   **Pixabay** (Alternative Videos):
+   - Get API key from dashboardvenv\Scripts\activate
 
----   - Sign up at: https://pixabay.com/api/docs/
+   - Add to `.env`: `OPENROUTER_API_KEY=your_key_here`
+
+Your video will be in `src/output/[timestamp]/[timestamp].mp4` 🎉# On Mac/Linux:
+
+   **Pexels** (Stock Videos):
+
+   - Sign up at: https://www.pexels.com/api/source venv/bin/activate
 
    - Get API key
 
-### 4️⃣ Pixabay (Video API) - **FREE**   - Add to `.env`: `PIXABAY_API_KEY=your_key_here`
+   - Add to `.env`: `PEXELS_API_KEY=your_key_here`## 📋 Complete API Setup Guide
 
 
 
-Additional source for royalty-free videos.   **YouTube Data API**:
+   **Pixabay** (Alternative Videos):# Install packages
 
-   - Go to: https://console.cloud.google.com/
+   - Sign up at: https://pixabay.com/api/docs/
 
-1. Go to [pixabay.com/api/docs](https://pixabay.com/api/docs/)   - Create a new project
+   - Get API key### 1️⃣ API-Ninjas (Facts API) - **FREE**pip install -r requirements.txt
 
-2. Sign up for free account   - Enable "YouTube Data API v3"
+   - Add to `.env`: `PIXABAY_API_KEY=your_key_here`
 
-3. Go to API section → Copy your key   - Create OAuth 2.0 credentials (Desktop app)
+```
 
-4. Add to `.env`:   - Download as `client_secrets.json` in project root
+   **YouTube Data API**:
+
+   - Go to: https://console.cloud.google.com/Provides interesting random facts.
+
+   - Create a new project
+
+   - Enable "YouTube Data API v3"### 3. Install FFmpeg
+
+   - Create OAuth 2.0 credentials (Desktop app)
+
+   - Download as `client_secrets.json` in project root1. Go to [api-ninjas.com](https://api-ninjas.com/)
+
+
+
+### 5. Generate Your First Video!2. Click "Sign Up" (free account)**Windows:**
+
+
+
+```bash3. Verify your email```bash
+
+cd src
+
+python -m viral_shorts.main4. Go to "My Account" → Copy your API key# Using Chocolatey
+
+```
+
+5. Add to `.env`:choco install ffmpeg
+
+Your video will be in `src/output/[timestamp]/[timestamp].mp4` 🎉
 
    ```
 
-   PIXABAY_API_KEY=your-api-key-here### 5. Download Background Music
+## 💻 Usage
 
-   ```
+   API_NINJAS_KEY=your-api-key-here# Or download from: https://ffmpeg.org/download.html
 
-1. Go to: https://www.youtube.com/audiolibrary
+### Generate a Single Video
 
-**Free Tier**: 5,000 requests/day2. Download copyright-free music tracks
+   ``````
 
-3. Place them in: `assets/music/`
+```bash
 
----
-
-### 6. Set Up Kyutai TTS (Google Colab)
-
-### 5️⃣ YouTube Data API v3 (Optional - for auto-upload)
-
-This project uses Kyutai TTS running on Google Colab for free GPU access:
-
-Enables automatic video uploads to YouTube.
-
-1. Open this Colab notebook: [Setup Guide](docs/colab_tts_setup.md)
-
-1. Go to [console.cloud.google.com](https://console.cloud.google.com/)2. Follow the setup instructions
-
-2. Create new project (e.g., "QuantumFacts")3. Get your notebook URL
-
-3. Enable "YouTube Data API v3":4. Add to `.env`: `COLAB_NOTEBOOK_URL=your_colab_url`
-
-   - Search for it in API Library
-
-   - Click "Enable"**Note**: For local development, the system will use placeholder TTS. See documentation for full Kyutai TTS setup.
-
-4. Create OAuth 2.0 Credentials:
-
-   - Go to "Credentials" → "Create Credentials"## 💻 Usage
-
-   - Choose "OAuth 2.0 Client ID"
-
-   - Application type: "Desktop app"### Generate a Single Video
-
-   - Download JSON file
-
-5. Rename file to `client_secrets.json````bash
-
-6. Place in project root directorycd src
+cd src
 
 python -m viral_shorts.main
 
-**First Run**: Browser will open for YouTube account authorization```
+```**Free Tier**: 50,000 requests/month**Mac:**
 
 
 
----### Test API Connections
+### Test API Connections```bash
 
 
 
-### FFmpeg Installation```python
+```python---brew install ffmpeg
 
 from viral_shorts.main import ViralShortsGenerator
 
-**Windows**:
+```
 
-1. Download from [ffmpeg.org/download.html](https://ffmpeg.org/download.html)generator = ViralShortsGenerator()
+generator = ViralShortsGenerator()
 
-2. Extract to `C:\ffmpeg`generator.test_apis()
+generator.test_apis()### 2️⃣ OpenRouter (AI Script Generation) - **FREE**
 
-3. Add `C:\ffmpeg\bin` to system PATH```
+```
 
-4. Verify: `ffmpeg -version`
+**Linux:**
 
 ### Generate and Auto-Publish
 
-**Linux**:
+Generates engaging scripts using AI models.```bash
 
-```bashSet in `.env`:
+Set in `.env`:
 
-sudo apt update```bash
+```bashsudo apt-get install ffmpeg
 
-sudo apt install ffmpegAUTO_PUBLISH=true
+AUTO_PUBLISH=true
 
-``````
+```1. Go to [openrouter.ai](https://openrouter.ai/)```
 
 
 
-**Mac**:Or programmatically:
-
-```bash```python
-
-brew install ffmpeggenerator = ViralShortsGenerator()
-
-```video_info = generator.generate_video(publish=True)
-
-```
-
-## ⚙️ Configuration
-
-### Batch Generation
-
-Customize settings in `.env`:
+Or programmatically:2. Sign in with Google/GitHub
 
 ```python
 
-```bashfrom viral_shorts.main import ViralShortsGenerator
+generator = ViralShortsGenerator()3. Go to "Keys" → "Create Key"### 4. Set Up API Keys
 
-# Video Settings
+video_info = generator.generate_video(publish=True)
 
-VIDEO_WIDTH=1080                # Portrait widthgenerator = ViralShortsGenerator()
+```4. Copy the key (starts with `sk-or-v1-`)
 
-VIDEO_HEIGHT=1920               # Portrait height
 
-VIDEO_FPS=30                    # Frame rate# Generate 5 videos
 
-VIDEO_DURATION_MAX=60           # Max duration in secondsfor i in range(5):
+### Batch Generation5. Add to `.env`:1. Copy the example environment file:
+
+
+
+```python   ```   ```bash
+
+from viral_shorts.main import ViralShortsGenerator
+
+   OPENROUTER_API_KEY=your-api-key-here   copy .env.example .env
+
+generator = ViralShortsGenerator()
+
+   ```   ```
+
+# Generate 5 videos
+
+for i in range(5):
 
     print(f"\nGenerating video {i+1}/5...")
 
+    video_info = generator.generate_video()**Free Tier**: Several free models available including Mistral-7B2. Get your API keys:
+
+    if video_info:
+
+        print(f"Success! Video: {video_info['title']}")
+
+```
+
+---   **API-Ninjas** (Facts):
+
+## 📁 Project Structure
+
+   - Sign up at: https://api-ninjas.com/
+
+```
+
+quantumFacts/### 3️⃣ Pexels (Video API) - **FREE**   - Get your API key from dashboard
+
+├── src/
+
+│   └── viral_shorts/   - Add to `.env`: `API_NINJAS_KEY=your_key_here`
+
+│       ├── __init__.py
+
+│       ├── main.py              # Main orchestration scriptHigh-quality stock video footage.
+
+│       ├── config.py            # Configuration management
+
+│       ├── content_sourcing/    # Fact fetching & parsing   **OpenRouter** (AI Scripts):
+
+│       ├── scripting/           # AI script generation
+
+│       ├── narration/           # TTS integration1. Go to [pexels.com/api](https://www.pexels.com/api/)   - Sign up at: https://openrouter.ai/
+
+│       ├── video_assembly/      # FFmpeg video creation
+
+│       ├── publishing/          # YouTube upload2. Click "Get Started" → Sign up   - Get API key from dashboard
+
+│       └── utils/               # Logger, storage, etc.
+
+├── tests/                       # Unit tests3. Go to "Your API Key" → Copy key   - Add to `.env`: `OPENROUTER_API_KEY=your_key_here`
+
+├── requirements.txt             # Python dependencies
+
+├── pyproject.toml              # Project metadata4. Add to `.env`:
+
+├── .env.example                # Environment template
+
+├── SETUP.md                    # Detailed setup guide   ```   **Pexels** (Stock Videos):
+
+├── CONTRIBUTING.md             # Contribution guidelines
+
+└── README.md                   # This file   PEXELS_API_KEY=your-api-key-here   - Sign up at: https://www.pexels.com/api/
+
+```
+
+   ```   - Get API key
+
+## 🎥 Video Generation Pipeline
+
+   - Add to `.env`: `PEXELS_API_KEY=your_key_here`
+
+1. **Fetch Fact**: Get random interesting fact from API-Ninjas
+
+2. **Generate Script**: Use AI to create engaging script with title/hashtags**Free Tier**: 200 requests/hour
+
+3. **Create Narration**: Generate voiceover with Microsoft Edge TTS
+
+4. **Find Video**: Search and download relevant stock footage   **Pixabay** (Alternative Videos):
+
+5. **Assemble Video**: Combine all elements with FFmpeg
+
+6. **Add Subtitles**: Create word-by-word animated captions---   - Sign up at: https://pixabay.com/api/docs/
+
+7. **Upload**: Optionally publish to YouTube with metadata
+
+   - Get API key
+
+## ⚙️ Configuration
+
+### 4️⃣ Pixabay (Video API) - **FREE**   - Add to `.env`: `PIXABAY_API_KEY=your_key_here`
+
+Edit `.env` file to customize:
+
+
+
+```bash
+
+# Video SettingsAdditional source for royalty-free videos.   **YouTube Data API**:
+
+VIDEO_WIDTH=1080
+
+VIDEO_HEIGHT=1920   - Go to: https://console.cloud.google.com/
+
+VIDEO_FPS=30
+
+VIDEO_DURATION_MAX=601. Go to [pixabay.com/api/docs](https://pixabay.com/api/docs/)   - Create a new project
+
+
+
+# Audio Settings2. Sign up for free account   - Enable "YouTube Data API v3"
+
+BACKGROUND_MUSIC_VOLUME=0.2
+
+VOICE_VOLUME=1.03. Go to API section → Copy your key   - Create OAuth 2.0 credentials (Desktop app)
+
+
+
+# Publishing Settings4. Add to `.env`:   - Download as `client_secrets.json` in project root
+
+YOUTUBE_CATEGORY_ID=28          # Science & Technology
+
+YOUTUBE_PRIVACY_STATUS=public   # public, private, or unlisted   ```
+
+AUTO_PUBLISH=false
+
+```   PIXABAY_API_KEY=your-api-key-here### 5. Download Background Music
+
+
+
+## 🎨 Customization   ```
+
+
+
+### Change Voice1. Go to: https://www.youtube.com/audiolibrary
+
+
+
+Edit `src/viral_shorts/narration/tts.py`:**Free Tier**: 5,000 requests/day2. Download copyright-free music tracks
+
+
+
+```python3. Place them in: `assets/music/`
+
+# Available voices:
+
+voice = "en-US-ChristopherNeural"  # Energetic male (current)---
+
+# voice = "en-US-GuyNeural"         # Professional male
+
+# voice = "en-US-JennyNeural"       # Friendly female### 6. Set Up Kyutai TTS (Google Colab)
+
+# voice = "en-US-AriaNeural"        # Warm female
+
+```### 5️⃣ YouTube Data API v3 (Optional - for auto-upload)
+
+
+
+### Modify Caption StyleThis project uses Kyutai TTS running on Google Colab for free GPU access:
+
+
+
+Edit `src/viral_shorts/config.py`:Enables automatic video uploads to YouTube.
+
+
+
+```python1. Open this Colab notebook: [Setup Guide](docs/colab_tts_setup.md)
+
+SUBTITLE_FONT = 'Arial'         # Font name
+
+SUBTITLE_FONT_SIZE = 24         # Font size (pixels)1. Go to [console.cloud.google.com](https://console.cloud.google.com/)2. Follow the setup instructions
+
+SUBTITLE_COLOR = '&H00FFFF&'    # Yellow in BGR format
+
+SUBTITLE_POSITION = 2           # 2=bottom-center, 5=top-center2. Create new project (e.g., "QuantumFacts")3. Get your notebook URL
+
+SUBTITLE_MARGIN_V = 150         # Margin from bottom (pixels)
+
+```3. Enable "YouTube Data API v3":4. Add to `.env`: `COLAB_NOTEBOOK_URL=your_colab_url`
+
+
+
+## 🧪 Testing   - Search for it in API Library
+
+
+
+Run unit tests:   - Click "Enable"**Note**: For local development, the system will use placeholder TTS. See documentation for full Kyutai TTS setup.
+
+
+
+```bash4. Create OAuth 2.0 Credentials:
+
+# Install test dependencies
+
+pip install pytest pytest-cov   - Go to "Credentials" → "Create Credentials"## 💻 Usage
+
+
+
+# Run tests   - Choose "OAuth 2.0 Client ID"
+
+pytest tests/
+
+   - Application type: "Desktop app"### Generate a Single Video
+
+# With coverage
+
+pytest --cov=viral_shorts tests/   - Download JSON file
+
+```
+
+5. Rename file to `client_secrets.json````bash
+
+## 🔧 Troubleshooting
+
+6. Place in project root directorycd src
+
+### Common Issues
+
+python -m viral_shorts.main
+
+**FFmpeg not found:**
+
+```bash**First Run**: Browser will open for YouTube account authorization```
+
+# Verify installation
+
+ffmpeg -version
+
+
+
+# Add to PATH if needed---### Test API Connections
+
+```
+
+
+
+**API Key errors:**
+
+- Verify keys in `.env` file### FFmpeg Installation```python
+
+- Check API quotas on respective dashboards
+
+- Ensure no extra spaces in `.env`from viral_shorts.main import ViralShortsGenerator
+
+
+
+**Video download fails:****Windows**:
+
+- System automatically retries 3 times
+
+- Falls back to alternative videos1. Download from [ffmpeg.org/download.html](https://ffmpeg.org/download.html)generator = ViralShortsGenerator()
+
+- Check internet connection
+
+2. Extract to `C:\ffmpeg`generator.test_apis()
+
+**Caption timing issues:**
+
+- Captions use linear time distribution3. Add `C:\ffmpeg\bin` to system PATH```
+
+- Check Edge TTS installation: `pip install --upgrade edge-tts`
+
+4. Verify: `ffmpeg -version`
+
+**YouTube upload fails:**
+
+- Verify OAuth credentials### Generate and Auto-Publish
+
+- Check `client_secrets.json` exists
+
+- Re-authenticate if needed**Linux**:
+
+
+
+### Debug Mode```bashSet in `.env`:
+
+
+
+Enable detailed logging:sudo apt update```bash
+
+
+
+```bashsudo apt install ffmpegAUTO_PUBLISH=true
+
+# In .env
+
+LOG_LEVEL=DEBUG``````
+
+```
+
+
+
+## 🤝 Contributing
+
+**Mac**:Or programmatically:
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+```bash```python
+
+1. Fork the project
+
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)brew install ffmpeggenerator = ViralShortsGenerator()
+
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the branch (`git push origin feature/AmazingFeature`)```video_info = generator.generate_video(publish=True)
+
+5. Open a Pull Request
+
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## ⚙️ Configuration
+
+## 📝 License
+
+### Batch Generation
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Customize settings in `.env`:
+
+## 🙏 Acknowledgments
+
+```python
+
+- [API-Ninjas](https://api-ninjas.com/) - Interesting facts API
+
+- [OpenRouter](https://openrouter.ai/) - AI model access```bashfrom viral_shorts.main import ViralShortsGenerator
+
+- [Pexels](https://www.pexels.com/) - Free stock videos
+
+- [Pixabay](https://pixabay.com/) - Free stock videos# Video Settings
+
+- [Microsoft Edge TTS](https://github.com/rany2/edge-tts) - High-quality text-to-speech
+
+- [FFmpeg](https://ffmpeg.org/) - Video processingVIDEO_WIDTH=1080                # Portrait widthgenerator = ViralShortsGenerator()
+
+- [pysubs2](https://github.com/tkarabela/pysubs2) - Subtitle generation
+
+VIDEO_HEIGHT=1920               # Portrait height
+
+## ⚠️ Disclaimer
+
+VIDEO_FPS=30                    # Frame rate# Generate 5 videos
+
+- Ensure you comply with YouTube's Terms of Service
+
+- Verify content rights and licensingVIDEO_DURATION_MAX=60           # Max duration in secondsfor i in range(5):
+
+- Monitor API usage to stay within free tiers
+
+- This tool is for educational purposes    print(f"\nGenerating video {i+1}/5...")
+
+- Always review generated content before publishing
+
 # Audio Settings    video_info = generator.generate_video()
+
+## 🗺️ Roadmap
 
 BACKGROUND_MUSIC_VOLUME=0.2     # Music volume (0.0-1.0)    if video_info:
 
-VOICE_VOLUME=1.0                # Voice volume        print(f"Success! Video: {video_info['title']}")
+- [ ] Web dashboard for monitoring
 
-```
+- [ ] Multiple voice optionsVOICE_VOLUME=1.0                # Voice volume        print(f"Success! Video: {video_info['title']}")
 
-# Content Settings
+- [ ] Custom subtitle styles and animations
 
-FACTS_CATEGORY=random           # Fact category## 📁 Project Structure
+- [ ] A/B testing for titles```
 
-VIDEO_LANGUAGE=en               # Language code
+- [ ] Analytics integration
 
-```
+- [ ] Multi-language support# Content Settings
 
-# Publishing Settingsviral-shorts-generator/
+- [ ] Video preview generation
 
-AUTO_PUBLISH=false              # Auto-upload to YouTube├── src/
+- [ ] Automated thumbnail creationFACTS_CATEGORY=random           # Fact category## 📁 Project Structure
 
-YOUTUBE_PRIVACY_STATUS=public   # public, private, or unlisted│   └── viral_shorts/
 
-YOUTUBE_CATEGORY_ID=28          # 28 = Science & Technology│       ├── __init__.py
+
+---VIDEO_LANGUAGE=en               # Language code
+
+
+
+<div align="center">```
+
+
+
+**Made with ❤️ Open Source**# Publishing Settingsviral-shorts-generator/
+
+
+
+*Built for creators, by creators. Free forever.*AUTO_PUBLISH=false              # Auto-upload to YouTube├── src/
+
+
+
+[⭐ Star this repo](https://github.com/harshareddy-bathala/quantumFacts) | [🐛 Report Bug](https://github.com/harshareddy-bathala/quantumFacts/issues) | [💡 Request Feature](https://github.com/harshareddy-bathala/quantumFacts/issues)YOUTUBE_PRIVACY_STATUS=public   # public, private, or unlisted│   └── viral_shorts/
+
+
+
+</div>YOUTUBE_CATEGORY_ID=28          # 28 = Science & Technology│       ├── __init__.py
+
 
 ```│       ├── main.py              # Main orchestration script
 

@@ -1,0 +1,27 @@
+# Core Dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Content Sourcing & Scripting
+openai==1.12.0  # For OpenRouter API compatibility
+
+# Video Processing
+pysubs2==1.6.1
+Pillow==10.2.0
+gtts==2.5.0
+pydub==0.25.1
+edge-tts==6.1.12
+
+# YouTube API
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.116.0
+
+# Utilities
+tqdm==4.66.1
+colorlog==6.8.0
+
+# Optional: For local development
+pytest==8.0.0
+pytest-cov==4.1.0
